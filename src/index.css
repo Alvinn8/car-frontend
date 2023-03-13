@@ -1,0 +1,43 @@
+:root {
+    --color-blue: #1473ff;
+    --color-gray: #d2d2d2;
+    --color-green: #64d750;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#root {
+    display: flex;
+}
+
+div {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.padding8 {
+    padding: 8px;
+}
+
+.max-width {
+    max-width: 500px;
+    margin: 0px auto;
+}

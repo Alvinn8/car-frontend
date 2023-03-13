@@ -1,0 +1,6 @@
+{
+    "name": "Car",
+    "id": "car-frontend",
+    "start_url": "/car/",
+    "display": "standalone"
+}

@@ -1,0 +1,14 @@
+.row {
+    display: flex;
+    justify-items: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: -1px; /* simulate border collapse */
+    padding: 10px 10px;
+    min-height: 63px;
+    font-size: 20px;
+}
+
+.row span, img {
+    margin: auto 0px;
+}

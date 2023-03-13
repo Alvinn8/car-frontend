@@ -1,0 +1,27 @@
+.battery {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 36px;
+    transform: translateY(-7px);
+}
+
+.progress {
+    background-color: var(--color-gray);
+    display: inline-block;
+    width: calc(100% - 45px);
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.progressbar {
+    background-color: var(--color-blue);
+    height: 100%;
+    color: white;
+    font-size: 12px;
+}

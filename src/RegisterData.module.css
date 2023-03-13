@@ -1,0 +1,22 @@
+.register {
+    margin: 10px 0px;
+    font-family: monospace;
+}
+
+.flashing {
+    animation: flash 2s ease-out;
+}
+
+.id {
+    font-weight: bold;
+    color: var(--color-blue);
+}
+
+@keyframes flash {
+    from {
+        background-color: var(--color-green);
+    }
+    to {
+        background-color: transparent;
+    }
+}

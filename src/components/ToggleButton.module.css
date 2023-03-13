@@ -1,0 +1,27 @@
+.togglebutton {
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background: var(--color-gray);
+    border-radius: 17px;
+    transition: background-color 400ms;
+}
+
+.slider {
+    height: 26px;
+    width: 26px;
+    background-color: white;
+    left: 4px;
+    top: 4px;
+    position: relative;
+    border-radius: 50%;
+    transition: transform 400ms;
+}
+
+.togglebutton.active {
+    background-color: var(--color-green);
+}
+
+.togglebutton.active .slider {
+    transform: translateX(26px);
+}

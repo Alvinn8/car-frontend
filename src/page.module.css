@@ -1,0 +1,13 @@
+.container {
+    width: 80vw;
+    max-width: 400px;
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding: 80px 20px;
+}
+
+.icon {
+    width: 50%;
+}
